@@ -67,13 +67,14 @@ Install all dependencies before building:
 
 ```bash
 sudo apt-get update
-sudo apt-get install -y fio blktrace
+sudo apt-get install -y fio blktrace git
 ```
 
 | Tool | Purpose |
 |------|---------|
 | `fio` | WAL benchmark workload generator |
 | `blktrace` / `blkparse` | Physical write byte measurement (WAF calculation) |
+| `git` | Applying kernel patches (`git apply`) |
 
 ---
 
